@@ -1,12 +1,50 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}   
 body{
-    background-color: darkblue;
+    background-color: #FFFEFD;
 }
-.nvlist{
-    margin-left: 20px;
+a{
+    /* font-size: ; */
+    color: black;
+    text-decoration: none;
 }
-.lastnvlist{
-    margin-left: 200px;
+[class *="col-"]{
+    float: left;
+    padding: 10px;
 }
-.firstnvlist{
-    margin-left: 200px;
+/* for Mobile  */
+[class *= "col-"]{
+    width: 100%;
+}
+.navbar{
+    padding: 1% 5%;
+    text-align: center;
+}
+.navMenu{
+    display: flex;
+    flex-direction: column;
+    
+}
+.navMenu a{
+    border-radius: 10px;
+    margin: 7px 0px;
+    padding: 5px;
+}
+.navbar a:hover{
+    color:#FD5956;
+    background-color: gray;
+}
+.navButton button{
+    background-color: black;
+    color: #FFFEFD;
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 5px;
+}
+.navbar ::after{
+    clear: both;
+    display: table;
+    content: '';
 }
