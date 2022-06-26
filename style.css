@@ -18,6 +18,20 @@ a{
 [class *= "col-"]{
     width: 100%;
 }
+
+
+
+
+/* navbar design start here  */
+.header{
+    background-color: #fffeff;
+    width:100%;
+    height: 1080px;
+    background-image: url('images/accaro.svg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
 .navbar{
     padding: 1% 5%;
     text-align: center;
@@ -48,3 +62,11 @@ a{
     display: table;
     content: '';
 }
+/* navbar design end here  */
+
+/* header design start here  */
+
+
+
+
+/* header design end here  */
