@@ -65,8 +65,48 @@ a{
 /* navbar design end here  */
 
 /* header design start here  */
+.headerDetails{
+    padding: 1% 5%;
+}
 
+.headerDetails h3{
+    color: #FD5956;
+    font-family: poppins;
+    font-weight: bolder;
+}
+.headerDetails h1{
+    font-size:3rem;
+}
+.designer{
+    padding-left: 2.5rem;
+}
+.socialMedia{
+    padding: 1% 5%;
+    text-align: center;
+    
+}
+.socialMedia button{
+    border: none;
+    font-size: 2.5rem;
+    background-color: #FFFEFD;
+    padding: 10px;
+}
+.cvButton{
+    margin: auto;
+    text-align: center;
 
+}
+.cvButton button{
+    background-color: #FD5956;
+    border: none;
+    padding: 5px 10px;
+}
 
-
+.headerImage{
+    
+    background-image: url('images/imageBg.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
 /* header design end here  */
