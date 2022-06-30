@@ -67,6 +67,7 @@ a{
 /* header design start here  */
 .headerDetails{
     padding: 1% 5%;
+    position: static;
 }
 
 .headerDetails h3{
@@ -81,7 +82,7 @@ a{
     padding-left: 2.5rem;
 }
 .socialMedia{
-    padding: 1% 5%;
+
     text-align: center;
     
 }
@@ -89,7 +90,6 @@ a{
     border: none;
     font-size: 2.5rem;
     background-color: #FFFEFD;
-    padding: 10px;
 }
 .cvButton{
     margin: auto;
@@ -107,6 +107,20 @@ a{
     background-image: url('images/imageBg.svg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    position: relative;
+
+}
+
+.ops{
+    background: rgba(255, 255, 255, 0.9);
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    top: 589px;
+    height: 250px;
+    width: 100%;
+    opacity: 1;
+    -webkit-filter: blur(20px);
     
 }
 /* header design end here  */

@@ -52,6 +52,21 @@
 
 /* headerDetails design start here  */
 
+.socialMedia{
+    text-align: left;
+
+}
+.socialMedia button{
+    margin-right: 20px;
+}
+.cvButton{
+    margin: auto;
+    padding: auto;
+    text-align: left;
+
+}
+
+
 
 /* .headerDetails{
     float: left;
