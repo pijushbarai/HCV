@@ -4,6 +4,7 @@
 }   
 body{
     background-color: #FFFEFD;
+    font-family: 'Poppins', sans-serif;
 }
 a{
     /* font-size: ; */
@@ -28,8 +29,8 @@ a{
     width:100%;
     height: 1080px;
     background-image: url('images/accaro.svg');
+    background-attachment: scroll;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: 100% 100%;
 }
 .navbar{
@@ -124,3 +125,47 @@ a{
     
 }
 /* header design end here  */
+
+
+/* about me section start here  */
+.sec-2{
+    background-image: url('images/aboutMeAbstractBackground.svg'),url('images/aboutMeRope.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position:50% 50%,50% 50%;
+    width: 100%;
+    height: 1720px;
+    padding-top: 2rem;
+    
+}
+.aboutMeSection{
+    /* background-color: #FD5956; */
+    text-align: center;  
+}
+.aboutMeSection span{
+    color: #FD5956;
+    font-size: 2.5rem;
+}
+.aboutMeSection p{
+    padding: 0% 10%;
+}
+.sec-2-div-1{
+    display: none;
+    
+}
+.sec-2-div-1 span{
+    color: #FD5956;
+    font-size: 2.5rem;
+    line-height: 0%;
+   
+}
+.sec-2-div-3{
+    display: none;
+}
+.sec-2-div-3 span{
+    color: #FD5956;
+    font-size: 15rem;
+
+}
+
+/* about me section end here  */
