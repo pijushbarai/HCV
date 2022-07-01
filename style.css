@@ -149,6 +149,9 @@ a{
 .aboutMeSection p{
     padding: 0% 10%;
 }
+.aboutMeSection img{
+    padding-top: 150px;
+}
 .sec-2-div-1{
     display: none;
     
