@@ -287,3 +287,16 @@ a{
 }
 
 /* contributors section end here  */
+
+
+/* portfolio section start here  */
+.portfolio-Header{
+text-align: center;
+}
+.right-image img{
+    width: 50%;
+    height: 245px;
+    float: left;
+    padding: 0px 10px 10px 0px;
+}
+/* portfolio section end here  */
