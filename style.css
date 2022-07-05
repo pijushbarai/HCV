@@ -300,3 +300,35 @@ text-align: center;
     padding: 0px 10px 10px 0px;
 }
 /* portfolio section end here  */
+
+/* contact section start here  */
+.footer-items{
+    margin-top: 20px;
+    text-align: center;
+}
+.footer-items img{
+    width: 150px;
+    margin-bottom: 50px;
+}
+.footer-items h1{
+    font-weight: bolder;
+    color: #FD5956;
+    margin-bottom: 20px;
+}
+.footer-items p{
+    padding: 0% 5%;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.copyright-text {
+    text-align: center;
+    margin-top: 30px;
+}
+.copyright-text span{
+    color: white;
+    background-color: black;
+    padding: 0px 3px;
+    border-radius: 20px;
+    
+}
+/* contact section end here  */
