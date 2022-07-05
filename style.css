@@ -181,7 +181,7 @@ a{
 .services{
     background-color:#FFFEFD;
     width: 100%;
-    height: 1080px;
+    /* height: 1080px; */
 }
 .servicesHeader{
     text-align: center;
@@ -201,18 +201,23 @@ a{
     text-align: center;
 }
 .card1{
+    background-color: #FFE6AB;
     margin-left: 50px;
     padding: 5% 5%;
     width: 300px;
     border-radius: 10px;
+    margin-bottom: 30px;
 }
 .card1:hover{
     transition: 500ms;
     transform: scale(1.1);
+    transform: translateY(30px);
     box-sizing: border-box;
     box-shadow: 1px 1px 5px gray;
 }
 .card2{
+    margin-bottom: 30px;
+    background-color: #FFE6AB;
     margin-left: 50px;
     padding: 5% 5%;
     width: 300px;
@@ -220,10 +225,13 @@ a{
 }.card2:hover{
     transition: 500ms;
     transform: scale(1.1);
+    transform: translateY(30px);
     box-sizing: border-box;
     box-shadow: 1px 1px 5px gray;
 }
 .card3{ 
+    margin-bottom: 30px;
+    background-color: #FFE6AB;
     margin-left: 50px;
     border-radius: 10px;
     padding: 5% 5%;
@@ -234,6 +242,7 @@ a{
     transform: scale(1.1);
     box-sizing: border-box;
     box-shadow: 1px 1px 5px gray;
+   transform: translateY(30px);
 }
 .cards h3{
     padding-top: 5%;
@@ -243,3 +252,23 @@ a{
 
 
 /* services section end here  */
+
+
+/* contributors section srart here  */
+.controbutors{
+    text-align: center;
+    padding-top: 50px;
+}
+.controbutors h1{
+    font-weight: bolder;
+}
+.controbutors span{
+    color: #FD5956;
+    font-size: 2.5rem;
+}
+.controbutors-Header p{
+    padding: 1% 26%;
+
+}
+
+/* contributors section end here  */

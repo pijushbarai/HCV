@@ -92,5 +92,12 @@
 .cards{
     text-align: left;
 }
+.card1{
+    background-color: #fffeff;
+}.card2{
+    background-color: #fffeff;
+}.card3{
+    background-color: #fffeff;
+}
 
 /* services section end here  */
