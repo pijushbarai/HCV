@@ -125,7 +125,12 @@
     
 }
 /* controbutors section end here  */
-
+.footer-items p{
+    padding: 0% 24%;
+    font-weight: bolder;
+    justify-content: center;
+    margin-bottom: 50px;
+}
 .footer-socialMedia{
     text-align: center;
 }
