@@ -267,8 +267,23 @@ a{
     font-size: 2.5rem;
 }
 .controbutors-Header p{
-    padding: 1% 26%;
+    padding: 1% 15%;
 
+}
+.webLogos{
+    margin-top: 50px;
+}
+.c-logo{
+    text-align: center;
+    /* margin-top: 50px; */
+    
+}
+.c-logo img{
+ 
+    width: 125px;
+    height: auto;
+    margin: 0px 2%;
+    
 }
 
 /* contributors section end here  */

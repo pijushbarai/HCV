@@ -101,3 +101,27 @@
 }
 
 /* services section end here  */
+
+
+/* contributors section start here  */
+.controbutors-Header p{
+    padding: 1% 26%;
+
+}
+.webLogos{
+    margin-top: 75px;
+}
+
+.c-logo{
+    text-align: center;
+    
+    
+}
+.c-logo img{
+ 
+    width: 200px;
+    height: auto;
+    margin: 0px 5%;
+    
+}
+/* controbutors section end here  */
